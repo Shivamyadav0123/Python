@@ -12,8 +12,8 @@ show()
 
 #Global variable=A global variable is declared outside all function and can be accessed from anywhere in the program.
 
-#a=30
-#def show():
-    #print("global variable:",a)
-#show()
-#print("outside function:",a)    
+a=30
+def show():
+    print("global variable:",a)
+show()
+print("outside function:",a)    
