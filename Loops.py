@@ -6,7 +6,7 @@
 #5. Count the number of positive and negative numbers in an array.
 
 #1. Print numbers from 1 to 100 using a loop.
-for i in range(1, 101):
+"""for i in range(1, 101):
     print(i)
 
 
@@ -66,4 +66,14 @@ for i in str:
 if str == reverse_str:
     print("The string is a palindrome.")
 else:
-    print("The string is not a palindrome.")
+    print("The string is not a palindrome.")"""
+
+
+a=[2,3,4,5,6,7,8,9,10,11,12,]
+even_count=0
+for i in a:
+    if i%2==0:
+        even_count+=1
+print("Number of even numbers:", even_count)
+
+
